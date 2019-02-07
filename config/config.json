@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "1Farrah274_",
+    "password": "",
     "database": "petofilesDB",
     "host": "localhost",
     "dialect": "mysql"
