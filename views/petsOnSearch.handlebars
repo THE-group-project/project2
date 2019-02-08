@@ -3,6 +3,7 @@
 <script src="../static/js/foundAnimals.js"></script>
 <script src="../static/js/petonsearch.js"></script>
 <link rel="stylesheet" href="../static/css/foundAndFav.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <div class="shadow">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
      
@@ -16,7 +17,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="../static/images/petfinderLogoSmall.png" alt="">
+                    <img class="mainlogo" src="../static/images/petfinderLogoSmall.png" alt="PetMi logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -92,7 +93,7 @@
                     <div class="favs">
                         <form action="/favAnimals/" method="POST">
                           <input type="hidden" name="favorite" value="{{this.petid}}${{this.petuserid}}${{this.petusername}}">
-                          <button class="btn btn-success" type="submit">Favorite!</button>
+                          <button class="btn btn-success" type="submit"><i class="fas fa-star"></i>  Favorite!</button>
                           <br>
                           <br>
                         </form>

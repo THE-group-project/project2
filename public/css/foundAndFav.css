@@ -1,3 +1,11 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mainlogo {
+    margin-bottom: -10px;
+}
+
 h1,
 h3,
 h2 {
@@ -7,7 +15,7 @@ h2 {
 }
 
 .foundAnimsLogo {
-    margin-top: 15px;
+    margin-top: 45px;
 }
 
 .logo {
@@ -42,13 +50,16 @@ h2 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    font-size: 20px;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: rgb(243, 0, 0);
     float: right;
-    font-size: 28px;
+    margin-top: -15px;
+    margin-right: -10px;
+    font-size: 40px;
     font-weight: bold;
 }
 

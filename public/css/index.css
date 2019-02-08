@@ -9,7 +9,8 @@ html {
     height: 100%;
     background-repeat: no-repeat;
     background-color: white;
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
     background-size: cover;
 }
 
@@ -19,7 +20,8 @@ html {
 
 h1.title {
     font-size: 50px;
-    font-family: 'Passion One', cursive;
+    /* font-family: 'Passion One', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -177,7 +179,7 @@ footer {
         /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
     .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
+        padding: 25px 0;
     }
     .thumbnail {
         display: inline-block;

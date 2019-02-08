@@ -61,3 +61,7 @@ sans-serif;*/
         height: 50%;
     }
 }
+
+html, body {
+    font-family: 'Josefin Sans', sans-serif;
+}
