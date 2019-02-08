@@ -5,6 +5,8 @@ How to get started?
 
    * Since the project is deployed on heroku you can visit it by 
     [CLICKING HERE](https://petmii.herokuapp.com/)
+    
+    Deployed link last updated 02/7/2019 @7:02pm
 
 # What is the purpose of this project?
    * The purpose of this project is allow users to search for pets to adopt nearby.
