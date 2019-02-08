@@ -11,8 +11,10 @@ How to get started?
 ##What are the benefits of pet adoption?
   *Adopting a pet comes with numerous advantages including:
 
-  *You’re saving a life. Millions of healthy, adoptable pets are euthanized every year simply for a lack of a home. When you adopt your pet from a shelter or rescue group, you’re giving a deserving pet a loving home.
+  *You’re saving a life. Millions of healthy, adoptable pets are euthanized every year simply for a lack of a home. When you adopt your pet    from a shelter or rescue group, you’re giving a deserving pet a loving home.
   *Many adoptable pets are already trained.
-  *When you adopt an older pet, you will often get a sense of their personality and temperament. You also already know their full grown size!
-  *An adoption fee can save you money! Adoption fees often include vaccinations, spay/neutering, microchips and other veterinary costs to help prepare the pet for a new home.
+  *When you adopt an older pet, you will often get a sense of their personality and temperament. You also already know their full grown       size!
+  *An adoption fee can save you money! Adoption fees often include vaccinations, spay/neutering, microchips and other veterinary costs        to help prepare the pet for a new home.
  
+  ## Project usage:
+   *
