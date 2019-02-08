@@ -21,6 +21,6 @@ How to get started?
   # Project usage:
    * New technology: Bcrypt (password hashing function)
    * API Usage: Petfinder 
-   *GET: Logout, rendering homepage and search pages, favorite information
-   *POST: Signup, login, Search, Favorites
-   *MySQL Database with a Sequelize usage 
+   * GET: Logout, rendering homepage and search pages, favorite information
+   * POST: Signup, login, Search, Favorites
+   * MySQL Database with a Sequelize usage 
