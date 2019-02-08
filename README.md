@@ -3,7 +3,7 @@
 
 How to get started?
 
-    * Since the project is deployed on heroku you can visit it by 
+   * Since the project is deployed on heroku you can visit it by 
     [CLICKING HERE](https://petmii.herokuapp.com/)
 
 ## What is the purpose of this project?
