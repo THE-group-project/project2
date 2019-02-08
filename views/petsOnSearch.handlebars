@@ -1,0 +1,105 @@
+ <!-- This page contains both the results and favorites display (our RESTful approach) -->
+ <!-- Navigation -->
+<script src="../static/js/foundAnimals.js"></script>
+<script src="../static/js/petonsearch.js"></script>
+<link rel="stylesheet" href="../static/css/foundAndFav.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<div class="shadow">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     
+       <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img class="mainlogo" src="../static/images/petfinderLogoSmall.png" alt="PetMi logo">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/logout">Log Out</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li>
+                    <!-- need to pass in username to add to href=/search/username -->
+                        <a href="/search/{{user.username}}">Search</a>
+                    </li>
+                    
+                     <li>
+                    <!-- need to pass in username to add to href=/favorite/username -->
+                        <a href="/favorites/{{user.username}}">Favorites</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="jumbotron-fluid">
+            {{!--<h1>Pets</h1>--}}
+            <div class="col-md-12">
+            <img class=" logo img-responsive img-rounded" src="../static/images/paw1.png" alt="Adopt">
+            </div>
+
+            {{#if Nofavs}}
+            <h1 class="foundAnimsLogo">{{Nofavs}}</h1>
+            {{/if}}
+            {{#if favs }}
+                <h3 class="foundAnimsLogo"> {{user.username}}'s Favorites </h3>
+                {{#each favs}}
+                    <div class=" favorites col-lg-3 col-md-4 col-xs-8 thumb crop">
+                        <img class="petPicture thumbnail" width="300px" height="300px" src="{{this.petPicture}}" alt="">
+                        <p class="phone">Phone: {{this.phone}}</p>
+                        <p>Email: <a href="mailto:{{this.email}}" target ="_top">{{this.email}}</a> </p> 
+                        <p>Address: {{this.address}}</p>
+                        <form method="POST" action="/favorites/{{../user.userid}}/{{../user.username}}/{{this.petid}}?_method=DELETE">
+                        <button type="submit" class="btn btn-danger">Remove</button>
+                        </form>
+                    </div>
+                {{/each}}
+            {{/if}}
+
+           {{#if pets}} 
+                    <h3 class="foundAnimsLogo">Animals found near you!</h3> 
+                    {{/if}}
+
+            {{#each pets}}
+
+                <div class="col-lg-3 col-md-4 col-xs-8 thumb crop">
+                <img class="petPicture thumbnail myBtn" width="300px" height="300px" src="{{this.petPicture}}" alt="">
+                <p class="phone">Phone: {{this.phone}}</p>
+                <p>Email: <a href="mailto:{{this.email}}" target ="_top">{{this.email}}</a> </p> 
+                <p>Address: {{this.address}}</p>
+                <span class="fix">{{this.description}}</span>
+                <div class="modal myModal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p class="description"></p>
+                    </div>
+                </div>
+
+                    <div class="favs">
+                        <form action="/favAnimals/" method="POST">
+                          <input type="hidden" name="favorite" value="{{this.petid}}${{this.petuserid}}${{this.petusername}}">
+                          <button class="btn btn-success" type="submit"><i class="fas fa-star"></i>  Favorite!</button>
+                          <br>
+                          <br>
+                        </form>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{!-- </div> --}}

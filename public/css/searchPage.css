@@ -1,0 +1,47 @@
+body {
+    background: url('https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/549585-istock-909106260.jpg?itok=ds7LqH1N&resize=1100x1100') no-repeat;
+    margin: 0;
+    /*color: #6a6f8c;
+    background: #c8c8c8;*/
+    background-size: cover;
+    font: 600 16px/18px 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    display: block
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+.main-center {
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px 40px;
+    background: rgba(40, 57, 101, .9);
+    opacity: .9;
+}
+
+.form-control {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    opacity: .9;
+}
