@@ -14,7 +14,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="static/images/petfinderLogoSmall.png" alt="">
+                    <img class="mainlogo" src="static/images/petfinderLogoSmall.png" alt="">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -40,69 +40,171 @@
       
          
             
-    <div class="container ">
-       <div class="col-md-12 jumbotron-fluid">
+    <div class="container">
+       <div class="row col-lg-12 text-center">
             <h1>Why should you adopt a pet?</h1>
             <h4>Provide a loving home to a pet that needs one, rather than support breeding mills.</h4>
+            <br>
         </div>
         <br></br>
         <br></br>
 
-        <div class="container">
-            <h1>Take Me To Your Leader</h1> 
+        <div class="row col-lg-12 text-center">
+            <h1>Take Me To Your Leader!</h1> 
             <h4> Want to checkout those who helped make this project possible? Find their contact information right here!
+            <br>
             <br>   
         </div>
+
+        <div class="row col-lg-12 text-center">
+            <img class="petPicture thumbnail" width="150px" height="150px" src="../static/images/angel.png" alt="Dzmitry">
+            <p id="ferrin">TEAM: FERRIN'S ANGELS</p>
+            <br></br>
+        </div>
+
        
-        <div class="container contacts">
-            <div class=" favorites col-lg-3 col-md-6 col-xs-12 thumb crop">
+        <div class="row container contacts">
+            {{!-- <div class=" favorites col-lg-3 col-md-6 col-xs-12 thumb crop">
                 <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/angel.png" alt="Dzmitry">
                 <br></br>
                 <p>Team: Ferrin's Angel</p>
                 <br></br>
+            </div> --}}
+        <div class="backenddiv text-center">
+            <div id="empty-space" class=" favorites col-lg-1 col-md-2 col-xs-4 ">
+                <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 3.jpg" alt="">
+                <p class="name">PLACEHOLDER</p>
+                <p>Role - Frontend </p> 
+                <p>Github:  </p>
             </div>
             <div class=" favorites col-lg-3 col-md-6 col-xs-12 thumb crop">
                 <img class="petPicture thumbnail" width="250px" height="250px" id="nahir" src="../static/images/female 1.jpg" alt="Ferrin">
-                <p class="name">Name: Ferrin Simanungkalit</p>
-                <p>Project Leader: Backend </p> 
-                <p>Github: <a href= "https://github.com/skalit2010" target="blank">Link</a> </p>
+                <p class="name">Ferrin Simanungkalit</p>
+                <p>Project Leader - Backend </p> 
+                <p>Github <a href= "https://github.com/skalit2010" target="blank">(Link)</a> </p>
             </div>
             <div class=" favorites col-lg-3 col-md-6 col-xs-12 ">
                 <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 1.jpg" alt="Eric">
-                <p class="name">Name: Eric Sauer</p>
-                <p>Role: Backend </p> 
-                <p>Github: <a href= "https://github.com/ogesour" target="blank">Link</a> </p>
+                <p class="name">Eric Sauer</p>
+                <p>Role - Backend </p> 
+                <p>Github <a href= "https://github.com/ogesour" target="blank">(Link)</a> </p>
             </div>
             <div class=" favorites col-lg-3 col-md-6 col-xs-12 ">
-                <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 2.jpg" alt="Bill">
-                <p class="name">Name: Bill Lam</p>
-                <p>Role: Backend </p> 
-                <p>Github: <a href= "https://github.com/ogesour" target="blank">Link</a> </p>
+                <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 2.jpg" alt="Bill L.">
+                <p class="name">Bill Lam</p>
+                <p>Role - Backend </p> 
+                <p>Github <a href= "https://github.com/Finishoff" target="blank">(Link)</a> </p>
             </div>
+            <div id="empty-space" class=" favorites col-lg-1 col-md-2 col-xs-4 ">
+                <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 3.jpg" alt="">
+                <p class="name">PLACEHOLDER</p>
+                <p>Role - Frontend </p> 
+                <p>Github:  </p>
+                <br>
+            </div>
+        </div>
             <div class=" favorites col-lg-3 col-md-6 col-xs-12 ">
                 <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 3.jpg" alt="Nathan">
-                <p class="name">Name: Nathan Serrano</p>
-                <p>Role: Frontend </p> 
-                <p>Github: <a href= "https://github.com/nlserrano" target="blank">Link</a> </p>
+                <p class="name">Nathan Serrano</p>
+                <p>Role - Frontend </p> 
+                <p>Github <a href= "https://github.com/nlserrano" target="blank">(Link)</a> </p>
             </div>
              <div class=" favorites col-lg-3 col-md-6 col-xs-12 ">
                 <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/female 2.jpg" alt="Dolores">
-                <p class="name">Name: Dolores Hernandez</p>
-                <p>Role: Frontend </p> 
-                <p>Github: <a href= "https://github.com/emily151" target="blank">Link</a> </p>
+                <p class="name">Dolores Hernandez</p>
+                <p>Role - Frontend </p> 
+                <p>Github <a href= "https://github.com/emily151" target="blank">(Link)</a> </p>
             </div>
             <div class=" favorites col-lg-3 col-md-6 col-xs-12 ">
                 <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 3.jpg" alt="Oscar">
-                <p class="name">Name: Oscar Viramontes</p>
-                <p>Role: Frontend </p> 
-                <p>Github: <a href= "https://github.com/ozvirala77" target="blank">Link</a> </p>
+                <p class="name">Oscar Viramontes</p>
+                <p>Role - Frontend </p> 
+                <p>Github <a href= "https://github.com/ozvirala77" target="blank">(Link)</a> </p>
             </div>
             <div class=" favorites col-lg-3 col-md-6 col-xs-12 ">
                 <img class="petPicture thumbnail" width="250px" height="250px" src="../static/images/male 2.jpg" alt="Bill K.">
-                <p class="name">Name: Bill Kester</p>
-                <p>Role: Frontend </p> 
-                <p>Github: <a href= "https://github.com/blyr00" target="blank">Link</a> </p>
+                <p class="name">Bill Kester</p>
+                <p>Role - Frontend </p> 
+                <p>Github <a href= "https://github.com/blyr00" target="blank">(Link)</a> </p>
             </div>
         </div>
-
+        <br>
+        <br>
     </div>
+
+    {{!-- <div class="card-columns">
+        <div class="card">
+            <img src="../static/images/male 3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bill</h5>
+                <p class="card-text">The backbone of the operation.</p>
+            </div>
+        </div>
+        <div class="card p-3">
+            <blockquote class="blockquote mb-0 card-body">
+                <p>"Just a pro."</p>
+                <footer class="blockquote-footer">
+                    <small class="text-muted">
+                        Bill <cite title="Source Title">Coding Bootcamp</cite>
+                    </small>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <img src="../static/images/male 3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ferrin</h5>
+                <p class="card-text">She's like the head of Voltron. We all assemble under her!</p>
+            </div>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+                <p>"Ferrin's Angels."</p>
+                <footer class="blockquote-footer text-white">
+                    <small>
+                        Ferrin <cite title="Source Title">Coding Bootcamp</cite>
+                    </small>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Nathan</h5>
+                <p class="card-text">He's the real deal.</p>
+                <p class="card-text"><small class="text-muted">Last updated everyday.</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../static/images/male 3.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+                <p>"I'm the real deal."</p>
+                <footer class="blockquote-footer">
+                    <small class="text-muted">
+                        Nathan <cite title="Source Title">Coding Bootcamp</cite>
+                    </small>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Oscar</h5>
+                <p class="card-text">The Overseer.</p>
+                <p class="card-text"><small class="text-muted">Last updated everyday.</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../static/images/male 3.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+                <p>"Let's get this done."</p>
+                <footer class="blockquote-footer">
+                    <small class="text-muted">
+                        Oscar <cite title="Source Title">Coding Bootcamp</cite>
+                    </small>
+                </footer>
+            </blockquote>
+        </div>
+    </div> --}}

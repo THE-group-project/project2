@@ -44,6 +44,7 @@ sans-serif;*/
     font-size: 56px;
     margin-bottom: -150px;
     font-weight: bold;
+    top: 20px;
 }
 
 
@@ -64,4 +65,20 @@ sans-serif;*/
 
 html, body {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.mainlogo {
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav {
+    position: absolute;
+    left: 980px;
+    bottom: 0px;
+}
+
+.navbar {
+    padding: 20px 0;
+    font-size: 18px;
 }

@@ -1,4 +1,4 @@
-body {
+navbody {
     background: url('http://hd-wall-papers.com/images/wallpapers/baby-cat-wallpaper/baby-cat-wallpaper-12.jpg') no-repeat;
     margin: 0;
     /*color: #6a6f8c;*/
@@ -204,4 +204,24 @@ a {
 
 .BadPass {
     color: orangered;
+}
+
+.mainlogo {
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav {
+    position: absolute;
+    left: 980px;
+    bottom: 0px;
+}
+
+.navbar {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+input {
+    font-size: 18px;
 }
