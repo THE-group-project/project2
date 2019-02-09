@@ -83,10 +83,11 @@ h2 {
 
 .nav {
     position: absolute;
-    left: 930px;
+    left: 840px;
     bottom: 0px;
 }
 
 .navbar {
     padding: 20px 0;
+    font-size: 18px;
 }

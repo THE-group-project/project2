@@ -74,10 +74,11 @@ html, body {
 
 .nav {
     position: absolute;
-    left: 1000px;
+    left: 980px;
     bottom: 0px;
 }
 
 .navbar {
     padding: 20px 0;
+    font-size: 18px;
 }

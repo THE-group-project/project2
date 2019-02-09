@@ -28,7 +28,20 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 30px;
+    margin-bottom: 20px; 
+}
+
+.form-control {
+    font-size: 20px;
+}
+
+.form-group {
+    font-size: 18px;
 }
 
 .main-center {
@@ -54,10 +67,11 @@ a {
 
 .nav {
     position: absolute;
-    left: 1000px;
+    left: 980px;
     bottom: 0px;
 }
 
 .navbar {
     padding: 20px 0;
+    font-size: 18px;
 }
