@@ -9,10 +9,11 @@ How to get started?
     Deployed link last updated 02/8/2019 @9:31pm
     
 # How this project came to be…
-  * Eric suggested that we create a shelter or safe house informational site for young adults similarly to a mobile app found on the app     store that was very basic and we felt that we could add further improvements to it. However one thing we wanted to utilize in our         website was an API and we felt that there were no API available to use for shelters/safe houses. We were going to utilize Google map’s     API for search query of shelters/safe house nearby but we felt it would be too similar to our previous project so we scrapped that idea.   We got our project idea from the search results bringing back "animal shelters" and so here we are.
+  * Eric suggested that we create a shelter or safe house informational site for young adults similarly to a mobile app found on the app     store that was very basic and we felt that we could add further improvements to it. However one thing we wanted to utilize in our         website was an API and we felt that there were no API available to use for shelters/safe houses. We were going to utilize Google         map’s API for search query of shelters/safe house nearby but we felt it would be too similar to our previous project so we      scrapped that idea. We got our project idea from the search results bringing back "animal shelters" and so here we are.
   
 # What is the purpose of this project?
    * The purpose of this project is allow users to search for pets to adopt nearby.
+   * Goal is to develop a functioning site for the community.
    
 # What are the benefits of pet adoption?
 
@@ -29,7 +30,7 @@ How to get started?
    * GET: Logout, rendering homepage and search pages, favorite information
      Ex: User logs out close session, handlebar rendering of home, contact, signup, login, search, favorites
    * POST: Signup, login, Search, Favorites
-     Ex: Post route for signing up new users, loggin in existing users, searching" the api, adding favorites
+     Ex: Post route for signing up new users, log in in existing users, searching" the api, adding favorites
    * MySQL Database with a Sequelize
       User models: ID with primary key, name, username, password, email, zip, animal, age, gender
       Favorite models: animalID, UserId
