@@ -6,7 +6,7 @@ How to get started?
    * Since the project is deployed on heroku you can visit it by 
     [CLICKING HERE](https://petmii.herokuapp.com/)
     
-    Deployed link last updated 02/8/2019 @5:23pm
+    Deployed link last updated 02/8/2019 @9:31pm
     
 # How this project came to be…
   * Eric suggested that we create a shelter or safe house informational site for young adults similarly to a mobile app found on the app     store that was very basic and we felt that we could add further improvements to it. However one thing we wanted to utilize in our         website was an API and we felt that there was no API available to use for shelters/safe houses. We were going to utilize Google map’s     API for search query of shelters/safe house nearby but we felt it would be too similar to our previous project so we scrapped that idea.   We shifted gears and found that most search queries were bring back a lot of animal shelters and so here we are.
