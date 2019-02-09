@@ -2,9 +2,6 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.mainlogo {
-    margin-bottom: -10px;
-}
 
 h1,
 h3,
@@ -77,4 +74,19 @@ h2 {
 .fix {
     display: none;
     font-size: 0px;
+}
+
+.mainlogo {
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav {
+    position: absolute;
+    left: 930px;
+    bottom: 0px;
+}
+
+.navbar {
+    padding: 20px 0;
 }

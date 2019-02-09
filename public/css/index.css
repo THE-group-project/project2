@@ -4,6 +4,14 @@ overflow: hidden !important;
 -webkit-overflow-scrolling: touch;
 }
 
+#ferrin {
+    padding-right: 10px;
+}
+
+#empty-space {
+    opacity: 0;
+}
+
 body,
 html {
     height: 100%;
@@ -162,11 +170,13 @@ body {
 }
 
 .navbar-fixed-top .nav {
-padding: 15px 0;
+    /* padding: 15px 0; */
+    padding: 15px 0 15px 0;
 }
 
 .navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
+    /* padding: 0 15px; */
+    padding: 0 15px 0 15px;
 }
 
 footer {
@@ -190,6 +200,8 @@ footer {
         overflow: none;
     }
 
+    }
+
                                        /*closing media*/
 
 img {
@@ -197,6 +209,10 @@ img {
 }
 
 .favorites {}
+
+.contacts {
+    font-size: 18px;
+}
 
 .btn-lg {
     background-color: #ff6633;
@@ -246,4 +262,19 @@ img {
 .fix {
     visibility: hidden;
     font-size: 25%;
+}
+
+.mainlogo {
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav {
+    position: absolute;
+    left: 1000px;
+    bottom: 0px;
+}
+
+.navbar {
+    padding: 20px 0;
 }

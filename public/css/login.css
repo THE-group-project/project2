@@ -19,9 +19,11 @@ body {
     /*color: #6a6f8c;
     background: #c8c8c8;*/
     background-size: cover;
-    font: 600 16px/18px 'Open Sans', sans-serif;
+    /* font: 600 16px/18px 'Open Sans', sans-serif; */
     font-family: 'Josefin Sans', sans-serif;
 }
+
+
 .wrongPassword {
     color: red;
     font-weight: bolder;
@@ -207,4 +209,19 @@ a {
 
 .foot-lnk {
     text-align: center;
+}
+
+.mainlogo {
+    position: absolute;
+    bottom: 44px;
+}
+
+.nav {
+    position: absolute;
+    left: 1000px;
+    bottom: 0px;
+}
+
+.navbar {
+    padding: 45px 0;
 }

@@ -27,7 +27,8 @@ body {
 
 a {
     color: inherit;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .main-center {
@@ -44,4 +45,19 @@ a {
     padding: 15px 20px;
     border-radius: 25px;
     opacity: .9;
+}
+
+.mainlogo {
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav {
+    position: absolute;
+    left: 1000px;
+    bottom: 0px;
+}
+
+.navbar {
+    padding: 20px 0;
 }
