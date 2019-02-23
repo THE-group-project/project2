@@ -3,10 +3,11 @@
 
 How to get started?
 
-   * Since the project is deployed on heroku you can visit it by 
-    [CLICKING HERE](https://petmii.herokuapp.com/)
-    
-    Deployed link last updated 02/8/2019 @9:31pm
+   * Since the project is no longer deployed on heroku you can visit it by
+                  
+                  Hosting it locally.
+   
+    Deployed link removed 02/23/2019 @1:03pm
    
    * Bugs/Issues: Favorite link, Search after authentication
    * Nice to have in update: 404 Page remove "restricted" plain page
